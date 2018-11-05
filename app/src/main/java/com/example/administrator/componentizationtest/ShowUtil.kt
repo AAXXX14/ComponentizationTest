@@ -7,9 +7,11 @@ import android.widget.Toast
 *2018/11/5 0005  15:16
 *function by lq
 */
-object ShowUtil{
+class ShowUtil{
 
-    fun showInfo(context:Context,content:String){
-        Toast.makeText(context,content,Toast.LENGTH_LONG).show()
+    companion object {
+        fun showInfo(context:Context,content:String){
+            Toast.makeText(context,content,Toast.LENGTH_LONG).show()
+        }
     }
 }
