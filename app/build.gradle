@@ -1,4 +1,4 @@
-def isModule = true
+def isModule = false
 
 
 if (isModule) {
