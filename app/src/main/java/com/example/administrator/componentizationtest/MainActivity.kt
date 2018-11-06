@@ -11,5 +11,4 @@ class MainActivity : AppCompatActivity() {
         ShowUtil.showInfo(this,AppConfig.hello)
     }
 
-
 }
